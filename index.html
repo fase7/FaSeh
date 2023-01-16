@@ -14,6 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@500&family=Martian+Mono:wght@700&family=Montserrat:wght@500;700&family=Open+Sans:wght@800&family=Oswald:wght@300;400;500;600;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@700&family=Rosario:wght@300;400;500;600;700&display=swap" rel="stylesheet">   
     <!-- google fonts    -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Fase7</title>
 </head>
 <body>
@@ -57,7 +58,7 @@
                 <h3>What We Love To Do</h3>
                 <p>Just Contact Us And We Will Help You To Get Your Personal Website</p>
             </div>
-            <div class="services-grid">
+            <div class="services-grid" data-aos="slide-up">
                 <div class="col">
                     <i class="fa-solid fa-pen-nib"></i>
                     <h2>Web Design</h2>
@@ -97,13 +98,14 @@
                 <h3>What We Have Done</h3>
                 <p>Take a look at our previous projects</p>
             </div>
-            <div class="work-grid">
+            <div class="work-grid" data-aos="fade-right">
                 <div class="col">
                     <div class="prev">
                         <img src="img/Screenshot_1.png" alt="">
                     </div>
                     <h2>Modus</h2>
-                    <a target="_blank"  href="https://www.mediafire.com/file/1s7tl9ua0mhcm7a/modus.pdf/file">Full Preview</a>
+                    <a target="_blank"  href="https://www.mediafire.com/file/1s7tl9ua0mhcm7a/mod
+                    us.pdf/file">Full Preview</a>
                 </div>
                 <div class="col">
                     <div class="prev">
@@ -144,7 +146,7 @@
                 <p>Know More About Us And You'll Sure That This Is The Right Track</p>
                 <span>Owner:Mohamed Fase7</span>
             </div>
-            <div class="about-grid">
+            <div class="about-grid" data-aos="flip-up">
                 <div class="col">
                     <div class="out">
                         <span style="width: 85%;">85%</span>
@@ -187,7 +189,7 @@
                 <h2>Contact-Us</h2>
                 <h3>Where You Can Find Us</h3>
             </div>
-            <div class="contact-grid">
+            <div class="contact-grid" data-aos="slide-up">
                 <div class="col">
                     <i class="fa-brands fa-whatsapp"></i>
                     <h2>WhatsApp</h2>
@@ -211,7 +213,7 @@
            
 <!-- start footer    -->
 <footer>
-    <div class="container">
+    <div class="container" >
         <div class="text">
             All Copyrights Reserved &copy;
         </div>
@@ -225,6 +227,12 @@
  </footer>
 
 <!-- end footer    -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        duration:2000
+    });
+</script>
     
 </body>
 </html>
