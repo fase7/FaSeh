@@ -328,7 +328,7 @@ margin-right: 30px;}
     
 }
 .landing{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 /* end landing     */
@@ -383,7 +383,7 @@ margin-right: 30px;}
 
 /* Start Work    */
 .work{
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     color: white;
     height: 120vh;
 
@@ -446,7 +446,7 @@ margin-right: 30px;}
 .about{
     color: white;
     margin-bottom: 100px;
-    height: 100vh;
+    height: 200vh;
 
     padding-top: 50px;
 }
@@ -513,7 +513,7 @@ margin-right: 30px;}
 .contact{
     color: white;
     margin-bottom: 100px;
-    height: 100vh;
+    height: 200vh;
 
     padding-top: 50px;
 }
