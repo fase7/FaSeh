@@ -339,7 +339,7 @@ margin-right: 30px;}
 .services{
     margin-bottom: 100px;
     color: white;
-    height: 200vh;
+    height: fit-content;
 
     padding-top: 50px;
     
@@ -385,7 +385,7 @@ margin-right: 30px;}
 .work{
     margin-bottom: 200px;
     color: white;
-    height: 320vh;
+    height: fit-content;
 
     padding-top: 50px;
 }
@@ -446,7 +446,7 @@ margin-right: 30px;}
 .about{
     color: white;
     margin-bottom: 100px;
-    height: 200vh;
+    height: fit-content;
 
     padding-top: 50px;
 }
@@ -513,7 +513,7 @@ margin-right: 30px;}
 .contact{
     color: white;
     margin-bottom: 100px;
-    height: 200vh;
+    height: fit-content;
 
     padding-top: 50px;
 }
