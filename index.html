@@ -25,7 +25,7 @@
                 Fase7
             </div>
             <div class="nav">
-                <i class="fa-solid fa-bars"></i>   
+                <i onclick="display()" onscroll="hide()" class="fa-solid fa-bars"></i>   
                 <ul>
                     <li><a href="" class="active">Home</a></li>
                     <li><a href="#services">Services</a></li>
@@ -253,6 +253,13 @@
     AOS.init({
         duration:2000
     });
+        function display(){
+        document.getElementById("list").classList.add('display')
+    }
+    function hide(){
+        document.getElementById("list").classList.remove('display')
+        document.getElementById("list").classList.add('hide')
+    }
 </script>
     
 </body>
