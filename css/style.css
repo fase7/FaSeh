@@ -165,11 +165,24 @@ margin-right: 30px;}
 @media (max-width:767px) {
     .nav i {display: flex;}
     header .nav ul {display: none;}
-    header .nav i:hover + ul {
+/*     header .nav i:hover + ul {
         display: flex;
         z-index: 1;
+    } */
+        .display{
+        display: flex!important;
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--background-color);
+        left: 0;
     }
-    .nav ul {
+    .hide{
+        display: none!important;
+
+    }
+/*     .nav ul {
         display: flex;
     position: absolute;
     top: 100%;
@@ -177,7 +190,7 @@ margin-right: 30px;}
     width: 100%;
     background-color: var(--background-color);
     left: 0;
-    }
+    } */
     .nav ul li {
         margin-bottom: 6px;
         padding: 15px;
